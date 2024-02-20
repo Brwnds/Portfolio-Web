@@ -1,0 +1,116 @@
+    @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        box-sizing: border-box;
+        /*Esteliziação da página por onde inicia-se*/
+        background-color: #3C0753;
+        /*Popriedade - Cor de fundo*/
+        color: white;
+    }
+    
+    .cabecalho__menu_link {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+    }
+    
+    .cabecalho {
+        display: flex;
+        padding: 2% 0 0 15%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .cabecalho__menu {
+        display: flex;
+        gap: 80px;
+    }
+    
+    .printf-titulo {
+        font-size: 40px;
+        color: #ee66ca;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .Cor-Im {
+        color: #ffffff;
+    }
+    
+    .subtitulo-do-hello-its-brenda {
+        font-size: 40px;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .descricao-cargo {
+        color: #a0117a;
+        font-size: 20px;
+        font-family: "Krona One", sans-serif;
+    }
+    
+    .descricao-apresentacao-conteudo {
+        font-size: 24px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .Apresentacao {
+        /*Mexe diretamente com a imagem do perfil*/
+        padding: 8% 15;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        margin-right: 100px;
+    }
+    
+    .profile-img {
+        width: 300px;
+        /* Defina a largura desejada */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        border-radius: 10%;
+        /* Bordas arredondadas para uma aparência mais suave, ajuste conforme necessário */
+    }
+    
+    .aprensentacao__conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 615px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .apresentacao__links {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .apresentacao__links__link {
+        margin-right: 40px;
+        background-color: #b3208c;
+        width: 280px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .rodape {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-size: 24px;
+        padding: 24px;
+        font-weight: 400;
+        color: white;
+        background-color: #ee66ca;
+    }
